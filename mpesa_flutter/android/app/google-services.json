@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "649781205611",
+    "project_id": "mpesa-flutter",
+    "storage_bucket": "mpesa-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649781205611:android:019aa0d983e13b1afaaf2e",
+        "android_client_info": {
+          "package_name": "com.example.mpesa_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649781205611-rs24040np4hdu5flguc5bmjea74a76k2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFRPaoz9jPn96H0oUX2ZBtsaG7rhSXKsc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "649781205611-rs24040np4hdu5flguc5bmjea74a76k2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
