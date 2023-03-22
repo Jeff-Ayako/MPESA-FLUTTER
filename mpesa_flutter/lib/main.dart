@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:mpesa_flutter/Views/homescreen.dart';
-import 'package:mpesa_flutter/firebase_options.dart';
+// import 'package:mpesa_flutter/firebase_options.dart';
 import 'package:mpesa_flutter_plugin/initializer.dart';
-import 'package:firebase_core/firebase_core.dart';
+// import 'package:firebase_core/firebase_core.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+  // await Firebase.initializeApp(
+  //   options: DefaultFirebaseOptions.currentPlatform,
+  // );
   //initialisation of the consumer and secret key
   WidgetsFlutterBinding.ensureInitialized();
   // create a new project on Daraja then paste your own consumer keys and secret key
