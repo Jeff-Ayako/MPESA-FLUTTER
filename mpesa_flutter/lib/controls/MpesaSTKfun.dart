@@ -20,12 +20,9 @@ Future<void> startCheckout({
         partyB: "174379",
         // uncomment this section if you want to parse in your own till number to the function
         // partyB: tillNumber,
-        callBackURL: Uri(
-            scheme: "https",
-            // host: "mpesacallback.herokuapp.com",
-            // host: "us-central1-miranda-e21e3.cloudfunctions.net",
-            host: "us-central1-miranda-e21e3.cloudfunctions.net",
-            path: "/lmno_callback_url"),
+
+        callBackURL: Uri.parse(
+            'https://us-central1-miranda-e21e3.cloudfunctions.net/mpesaPostRequest'),
         accountReference: "Nyayo Kitchen",
         phoneNumber: '254$userPhone',
         baseUri: Uri(scheme: "https", host: "sandbox.safaricom.co.ke"),

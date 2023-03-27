@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:mpesa_flutter/controls/MpesaSTKfun.dart';
@@ -9,6 +10,7 @@ class MainhomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     PaymentController paymentcontroller = Get.put(PaymentController());
+
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.purple,
@@ -53,6 +55,7 @@ class MainhomePage extends StatelessWidget {
                   backgroundColor: Colors.purple,
                 ),
                 onPressed: () {
+                  paymentcontroller.addCustomer();
                   startCheckout(
                     userPhone:
                         paymentcontroller.phoneNumbercontroller.text.trim(),

@@ -1,34 +1,186 @@
 {
   "project_info": {
-    "project_number": "649781205611",
-    "project_id": "mpesa-flutter",
-    "storage_bucket": "mpesa-flutter.appspot.com"
+    "project_number": "373291127267",
+    "firebase_url": "https://miranda-e21e3.firebaseio.com",
+    "project_id": "miranda-e21e3",
+    "storage_bucket": "miranda-e21e3.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:649781205611:android:019aa0d983e13b1afaaf2e",
+        "mobilesdk_app_id": "1:373291127267:android:f0ef4b5c441eea97c7d0d6",
         "android_client_info": {
-          "package_name": "com.example.mpesa_flutter"
+          "package_name": "com.example.fixplum_client"
         }
       },
       "oauth_client": [
         {
-          "client_id": "649781205611-rs24040np4hdu5flguc5bmjea74a76k2.apps.googleusercontent.com",
+          "client_id": "373291127267-nt76ajgcda4hlfalac8p6i6evep5e49c.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCFRPaoz9jPn96H0oUX2ZBtsaG7rhSXKsc"
+          "current_key": "AIzaSyAZQ7GmAgX_F6qE5U_aFDfInIQRDMsuitI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "649781205611-rs24040np4hdu5flguc5bmjea74a76k2.apps.googleusercontent.com",
+              "client_id": "373291127267-nt76ajgcda4hlfalac8p6i6evep5e49c.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "373291127267-acgidtri7qjvj89hv409jlomibhcu3jp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "fixplum.com.fixplum"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373291127267:android:e83b59835e88a1d7c7d0d6",
+        "android_client_info": {
+          "package_name": "com.example.mpesa_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373291127267-nt76ajgcda4hlfalac8p6i6evep5e49c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZQ7GmAgX_F6qE5U_aFDfInIQRDMsuitI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373291127267-nt76ajgcda4hlfalac8p6i6evep5e49c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "373291127267-acgidtri7qjvj89hv409jlomibhcu3jp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "fixplum.com.fixplum"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373291127267:android:3f61e9eaaf0aa51ac7d0d6",
+        "android_client_info": {
+          "package_name": "com.fixplum.com.fixplum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373291127267-nt76ajgcda4hlfalac8p6i6evep5e49c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZQ7GmAgX_F6qE5U_aFDfInIQRDMsuitI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373291127267-nt76ajgcda4hlfalac8p6i6evep5e49c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "373291127267-acgidtri7qjvj89hv409jlomibhcu3jp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "fixplum.com.fixplum"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373291127267:android:2e66ff1f71496773c7d0d6",
+        "android_client_info": {
+          "package_name": "com.fixplum.worker.fixplum_worker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373291127267-nt76ajgcda4hlfalac8p6i6evep5e49c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZQ7GmAgX_F6qE5U_aFDfInIQRDMsuitI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373291127267-nt76ajgcda4hlfalac8p6i6evep5e49c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "373291127267-acgidtri7qjvj89hv409jlomibhcu3jp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "fixplum.com.fixplum"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373291127267:android:41a62e636193915dc7d0d6",
+        "android_client_info": {
+          "package_name": "com.fixplum.workers_registration.fixplum_worker_registration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373291127267-nt76ajgcda4hlfalac8p6i6evep5e49c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZQ7GmAgX_F6qE5U_aFDfInIQRDMsuitI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373291127267-nt76ajgcda4hlfalac8p6i6evep5e49c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "373291127267-acgidtri7qjvj89hv409jlomibhcu3jp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "fixplum.com.fixplum"
+              }
             }
           ]
         }
