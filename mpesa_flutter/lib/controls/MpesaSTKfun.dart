@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:mpesa_flutter_plugin/mpesa_flutter_plugin.dart';
 
 Future<void> startCheckout({
@@ -31,6 +32,26 @@ Future<void> startCheckout({
             'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919');
 
     print("TRANSACTION RESULT: $transactionInitialisation");
+
+    //  CollectionReference<Map<String, dynamic>> users = FirebaseFirestore.instance.collection('users');
+    DocumentReference<Map<String, dynamic>> MpesaData = FirebaseFirestore
+        .instance
+        .collection('mpesaData')
+        .doc(transactionInitialisation['MerchantRequestID']);
+
+    await MpesaData.set({
+      'ResponceCode': transactionInitialisation['ResponseCode'],
+      'MerchantRequestID': transactionInitialisation['MerchantRequestID'],
+      'CheckoutRequestID': transactionInitialisation['CheckoutRequestID'],
+      'ResponseDescription': transactionInitialisation['ResponseDescription'],
+      'CustomerMessage': transactionInitialisation['CustomerMessage'],
+    })
+        .then(
+          (value) => print("Payment processing Added"),
+        )
+        .catchError(
+            (error) => print("Failed to add Payment processing: $error"));
+    ;
 
     //You can check sample parsing here -> https://github.com/keronei/Mobile-Demos/blob/mpesa-flutter-client-app/lib/main.dart
 

@@ -3,6 +3,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:mpesa_flutter/Views/homescreen.dart';
+import 'package:mpesa_flutter/Views/payments.dart';
 import 'package:mpesa_flutter/firebase_options.dart';
 // import 'package:mpesa_flutter/firebase_options.dart';
 import 'package:mpesa_flutter_plugin/initializer.dart';
